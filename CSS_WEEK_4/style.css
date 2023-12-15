@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+
+#first-div {
+    background-color: white;
+    width: 900px;
+}
+
+
+#heading-one {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+
+#buttons-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-button img {
+    width: 20px;
+}
+
+.nav-button {
+    background-color: #04AA6D;
+    color: white;
+    border: 0;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+#second-div {
+    width: 900px;
+    background-color: #D9EEE1;
+    padding: 40px 20px;
+}
+
+
+.para {
+    font-size: 18px;
+    padding: 7px 0;
+}

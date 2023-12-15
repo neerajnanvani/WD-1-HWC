@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading-1 {
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 200px;
+    border: 6px solid green;
+    padding: 40px;
+    margin: 20px
+}
+
+.para-1 {
+    background-color: pink;
+    color: black;
+    width: 50vw;
+    margin: 10px;
+}
+
+.para-2 {
+    background-color: blue;
+    color: aqua;
+    height: 30vh;
+    width: 100vh;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.span-1 {
+    background-color: gray;
+    color: purple;
+    width: 500px;
+    display: block;
+}
+
+.label-1 {
+    background-color: green;
+    display: inline-block;
+    width: 500px;
+}
+
+.input-1{
+    border: 3px solid blue;
+    margin: 40px;
+    padding: 20px;
+}
+
+.div-1 {
+    background-color: blueviolet;
+    border: 5px dotted red;
+    margin: 10px;
+}
+
+
+/* THIS IS CSS OF SECOND>HTML FILE */
+
+.h1box {
+    background-color: black;
+    color: white;
+    border: 3px solid red;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 20px 0;
+}
+
+.para1box {
+    background-color: beige;
+    padding: 10px 20px;
+    margin: 40px 20px;
+    border: 0 solid red;
+    border-width: 2px 20px;
+
+}
+
+.para2box {
+    background-color: beige;
+    border:5px blue solid;
+    padding:30px;
+    margin: 10px;
+}
+
+/* body {
+    background-color: beige;
+} */
+
+.ytImg {
+    width: 400px;
+    height: 400px;
+    border:4px purple solid;
+    margin: 100px;
+    border-radius: 100%;
+}
+
+/* THIS IS THIRD.html css */
+
+.first-div {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 6px solid blue;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.second-div {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 6px solid red;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.first-div-parent {
+
+    border: black 5px solid;
+    display: inline;
+}
+
+span {
+    border: 1px red solid;
+    margin: 100px;
+    display: block;
+    
+}
