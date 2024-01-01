@@ -1,0 +1,56 @@
+* {
+    background-color: #201D1D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 20px;
+    border-bottom: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#my-logo {
+    width: 60px;
+}
+
+.header-links a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+#mine-short {
+    margin: 30px;
+    border: #f3eeee 1px solid;
+    border-radius: 10px;
+    padding: 60px 0;
+    background-color: #242222;
+    text-align: center;
+}
+
+.mine-text {
+    background-color: #242222;
+    padding: 10px 0;
+}
+
+#name {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+#role {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+#one-liner {
+    color: #847979;
+    margin-bottom: 20px;
+}
