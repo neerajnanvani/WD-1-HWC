@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow</title>
+</head>
+<style>
+    .parent {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .dabba {
+        height: 200px;
+        width: 300px;
+        background-color: white;
+        box-shadow: inset 5px 5px 20px 10px #303030;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="dabba"></div>
+        <div class="dabba"></div>
+    </div>
+</body>
+</html>
