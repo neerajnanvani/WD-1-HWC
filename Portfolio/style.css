@@ -57,7 +57,7 @@ header {
 }
 
 .section {
-    margin: 80px 300px;
+    margin: 120px 300px;
     display: flex;
     gap: 50px;
 }
@@ -106,4 +106,48 @@ header {
     text-align: center;
     font-size: 31px;
     padding: 50px 0;
+}
+
+.education-box-parent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.education-box {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 147%; /* 45.57px */
+    text-transform: uppercase;
+}
+
+.experience-box h3 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 147%; /* 45.57px */
+}
+
+.experience-box ul {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 147%; /* 45.57px */
+    margin-left:20px;
+    margin-top: 40px;
+}
+
+footer {
+    padding: 50px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+footer a {
+    text-decoration: none;
 }
