@@ -47,13 +47,23 @@
 // }
 
 
-let table = 120;
-let count = 20;
-let count_start = 10;
+// let table = 120;
+// let count = 20;
+// let count_start = 10;
 
-while(count_start <= count) {
-    console.log(table, " X ", count_start, " = ", table * count_start);
-    count_start = count_start + 1;
+// while(count_start <= count) {
+//     console.log(table, " X ", count_start, " = ", table * count_start);
+//     count_start = count_start + 1;
+// }
+
+// console.log("While loop ended");
+
+let sum = 0;
+let num = 1;
+
+while(num <= 10) {
+    sum = sum + num;
+    num = num + 1; 
 }
 
-console.log("While loop ended");
+console.log(sum);
