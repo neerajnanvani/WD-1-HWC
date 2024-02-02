@@ -58,12 +58,54 @@
 
 // console.log("While loop ended");
 
-let sum = 0;
-let num = 1;
+// let sum = 0;
+// let num = 1;
 
-while(num <= 10) {
-    sum = sum + num;
-    num = num + 1; 
+// while(num <= 10) {
+//     sum = sum + num;
+//     num = num + 1; 
+// }
+
+// console.log(sum);
+
+
+// find given num is prime or not 
+
+
+// let num = 21;
+
+// let index = num - 1;
+
+// let isPrime = true;
+
+// while(index >= 2) {
+
+//     if(num % index == 0) {
+//         index = 1;
+//         isPrime = false;
+//     }
+
+//     index = index - 1;
+// }
+
+
+// if(isPrime) {
+//     console.log("THis is prime");
+// }
+
+// else {
+//     console.log("This is not prime");
+// }
+
+// find the number of digits
+
+let num = 5337542;
+
+let count = 0;
+
+while( num > 0 ) {
+    count = count + 1;
+    num = Math.floor(num / 10);
 }
 
-console.log(sum);
+console.log(count);
