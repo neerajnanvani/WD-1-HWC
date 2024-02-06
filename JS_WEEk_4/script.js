@@ -31,23 +31,50 @@
 // }
 
 
+// find vowel in string
+
+// let index = 0;
+
+// let str = "Neeraj ";
+
+// let isVowel = false;
+
+// while(index < str.length) {
+
+//     if(str[index] == 'a' || str[index] == 'e' || str[index] == 'i' || str[index] == 'o' || str[index] == 'u') {
+        
+//         isVowel = true;
+
+//         index = str.length;
+//     } 
+
+//     index++;
+// }
+
+// if(isVowel) {
+//     console.log("Vowel mil gya");
+// } else {
+//     console.log("Vowel  nahi mila")
+// }
+
+
+// count vowels 
+
+let str = "my name is neeraj";
 
 let index = 0;
 
-let str = "bts";
+let vowel_count = 0;
 
-while(index < str.length) {
+while( index < str.length ) {
 
     if(str[index] == 'a' || str[index] == 'e' || str[index] == 'i' || str[index] == 'o' || str[index] == 'u') {
-
-        console.log('isme ek vowel hai.');
-
-        index = str.length;
+        // vowel_count = vowel_count + 1;
+        vowel_count++;
     }
 
     index++;
 }
 
-
-
+console.log("The vowels in str is ", vowel_count);
 
