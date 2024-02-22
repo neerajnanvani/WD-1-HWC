@@ -53,6 +53,3 @@
 // Q.  convert all lower case characters in upper case
 
 
-for(let index = 0; index < 10; index++) {
-    console.log(index);
-}
