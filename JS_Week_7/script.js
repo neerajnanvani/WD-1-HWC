@@ -42,14 +42,45 @@
 // Calculate sum of all array elements
 
 
-let arr = [4, 6, 2, 9, 10, 3, 2, 1, 7, 8, 9];
+// let arr = [4, 6, 2, 9, 10, 3, 2, 1, 7, 8, 9];
 
-let sum = 0;
+// let sum = 0;
 
-for(let index = 0; index < arr.length; index++) {
-    sum = sum + arr[index];
+// for(let index = 0; index < arr.length; index++) {
+//     sum = sum + arr[index];
+// }
+
+// console.log(sum)
+
+
+//palindrome array check
+
+
+let arr = [1, 3, 4, 5, 5, 4, 3, 1];
+
+let start = 0;
+
+let end = arr.length - 1;
+
+let is_palindrome = true;
+
+while(start < end) {
+
+    if(arr[start] != arr[end]) {
+        is_palindrome = false;
+        break;
+    }
+
+    start++;
+    end--;
 }
 
-console.log(sum)
+
+if(is_palindrome) {
+    console.log("The array is palindrome");
+}
+else {
+    console.log("This array is not palindrome");
+}
 
 
