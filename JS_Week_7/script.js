@@ -56,31 +56,50 @@
 //palindrome array check
 
 
-let arr = [1, 3, 4, 5, 5, 4, 3, 1];
+// let arr = [1, 3, 4, 5, 5, 4, 3, 1];
 
-let start = 0;
+// let start = 0;
 
-let end = arr.length - 1;
+// let end = arr.length - 1;
 
-let is_palindrome = true;
+// let is_palindrome = true;
 
-while(start < end) {
+// while(start < end) {
 
-    if(arr[start] != arr[end]) {
-        is_palindrome = false;
-        break;
+//     if(arr[start] != arr[end]) { 
+//         is_palindrome = false;
+//         break;
+//     }
+
+//     start++;
+//     end--;
+// }
+
+
+// if(is_palindrome) {
+//     console.log("The array is palindrome");
+// }
+// else {
+//     console.log("This array is not palindrome");
+// }
+
+
+let arr = [3, 1, 6, 2, 8];
+console.log("Old", arr);
+for(let index_one = 0; index_one < arr.length - 1; index_one++) {  
+
+    for(let index_two = index_one + 1; index_two < arr.length; index_two++) {
+
+        if(arr[index_one] > arr[index_two]) {
+            let temp = arr[index_one];
+            arr[index_one] = arr[index_two];
+            arr[index_two] = temp; 
+        }
+
     }
-
-    start++;
-    end--;
 }
 
 
-if(is_palindrome) {
-    console.log("The array is palindrome");
-}
-else {
-    console.log("This array is not palindrome");
-}
+console.log("Sorted", arr);
 
 
