@@ -84,22 +84,37 @@
 // }
 
 
-let arr = [3, 1, 6, 2, 8];
-console.log("Old", arr);
-for(let index_one = 0; index_one < arr.length - 1; index_one++) {  
+// let arr = [3, 1, 6, 2, 8];
+// console.log("Old", arr);
+// for(let index_one = 0; index_one < arr.length - 1; index_one++) {  
 
-    for(let index_two = index_one + 1; index_two < arr.length; index_two++) {
+//     for(let index_two = index_one + 1; index_two < arr.length; index_two++) {
 
-        if(arr[index_one] > arr[index_two]) {
-            let temp = arr[index_one];
-            arr[index_one] = arr[index_two];
-            arr[index_two] = temp; 
-        }
+//         if(arr[index_one] > arr[index_two]) {
+//             let temp = arr[index_one];
+//             arr[index_one] = arr[index_two];
+//             arr[index_two] = temp; 
+//         }
 
+//     }
+// }
+
+
+// console.log("Sorted", arr);
+
+
+// for(let index = 0; index < 5; index++) {
+//     for(let other = index + 1; other < 5; other++) {
+//         console.log(index, other);
+//     }
+// }
+
+
+for(let index_one = 1; index_one < 5; index_one++) { // loop 1
+    for(let index_two = 1; index_two < 5; index_two++) { // loop 2
+        console.log(index_one, "," , index_two);
     }
+
+
+    
 }
-
-
-console.log("Sorted", arr);
-
-
