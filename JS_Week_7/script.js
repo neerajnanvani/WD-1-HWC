@@ -110,11 +110,55 @@
 // }
 
 
-for(let index_one = 1; index_one < 5; index_one++) { // loop 1
-    for(let index_two = 1; index_two < 5; index_two++) { // loop 2
-        console.log(index_one, "," , index_two);
-    }
+// for(let index_one = 1; index_one < 5; index_one++) { // loop 1
+//     for(let index_two = 1; index_two < 5; index_two++) { // loop 2
+//         console.log(index_one, "," , index_two);
+//     }
 
 
     
+// }
+
+
+// for(let i = 1; i <= 5; i++) {
+//     console.log(i, i + 1);
+// }
+
+// for(let i = 1; i <= 5; i = i + 2)  {
+//     console.log(i, i + 1);
+// }
+
+// for(let i = 1; i < 4; i++) {
+//     for(let j = 1; j < 4; j++) {
+//         console.log(i, j);
+//     }
+// }
+
+// console.log("This is \n neeraj");
+
+// let str_ans = "";
+
+// for(let i = 1; i <=5; i++) {
+//     for(let j = 1; j <= i; j++) {
+//         str_ans = str_ans + "* ";
+//     }
+
+//     str_ans = str_ans + "\n";
+
+// }
+
+// console.log(str_ans);
+
+
+let str_ans = "";
+
+for(let i = 1; i <=5; i++) {
+    for(let j = 1; j <= 6 - i; j++) {
+        str_ans = str_ans + "* ";
+    }
+
+    str_ans = str_ans + "\n";
+
 }
+
+console.log(str_ans);
