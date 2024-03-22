@@ -36,9 +36,14 @@
 
 // }
 
+
 // console.log(ans);
 
+let test = "Hello";
+
 function find_power(num, power) {
+
+    console.log(test);
 
     let start = 1;
     
@@ -49,20 +54,23 @@ function find_power(num, power) {
         ans = ans * num;
 
         start++;
-
     }
 
-    console.log(ans);
+    return ans;
 }
+// console.log({start});
 
+let ans_1 = find_power(5, 5);
 
-find_power(5, 5);
+test = "Namaste";
 
-find_power(2, 10);
+let ans_2 = find_power(2, 10);
 
-find_power(10, 7);
+let ans_3 = find_power(10, 7);
 
-find_power(3, 20);
+let ans_4 = find_power(3, 20);
+
+console.log({ans_1, ans_2, ans_3, ans_4});
 
 
 
