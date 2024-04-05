@@ -39,43 +39,73 @@
 
 // console.log(ans);
 
-let test = "Hello";
+// let test = "Hello";
 
-function find_power(num, power) {
+// function find_power(num, power) {
 
-    console.log(test);
+//     console.log(test);
 
-    let start = 1;
+//     let start = 1;
     
-    let ans = 1;
+//     let ans = 1;
 
-    while( start <= power ) {
+//     while( start <= power ) {
 
-        ans = ans * num;
+//         ans = ans * num;
 
-        start++;
+//         start++;
+//     }
+
+//     return ans;
+// }
+// // console.log({start});
+
+// let ans_1 = find_power(5, 5);
+
+// test = "Namaste";
+
+// let ans_2 = find_power(2, 10);
+
+// let ans_3 = find_power(10, 7);
+
+// let ans_4 = find_power(3, 20);
+
+// console.log({ans_1, ans_2, ans_3, ans_4});
+
+
+// let a = 5;
+// let b = 10;
+
+// let sum = a + b;
+
+// let mul = a * b;
+
+// let div = a / b;
+
+
+// console.log(sum, mul, div);
+
+function calculate_numbers(a, b, mode) {
+
+    if(mode == "sum") {
+        return a + b;
     }
 
-    return ans;
+    if(mode == 'sub') {
+        return a - b;
+    }
+
+    if(mode == "mul") {
+        return a * b;
+    }
+
+    if(mode == "div") {
+        return a / b;
+    }
+
+    return "Wrong mode given";
 }
-// console.log({start});
 
-let ans_1 = find_power(5, 5);
+let ans = calculate_numbers(10, 5, "alpha");
 
-test = "Namaste";
-
-let ans_2 = find_power(2, 10);
-
-let ans_3 = find_power(10, 7);
-
-let ans_4 = find_power(3, 20);
-
-console.log({ans_1, ans_2, ans_3, ans_4});
-
-
-
-
-
-
-
-
+console.log(ans);
