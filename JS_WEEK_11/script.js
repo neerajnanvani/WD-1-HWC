@@ -28,12 +28,12 @@ function testInputFields() {
         return;
     }
 
-    alertMessage("Form Validation Done")
+    alertMessage("Form Validation Done");
 }
 
 function clearAllValues() {
     for(let index = 0; index < input_selectors.length; index++) {
-        input_selectors[index].value = '';
+        input_selectors[index].value = ''; // dom manipulation
     }
 }
 

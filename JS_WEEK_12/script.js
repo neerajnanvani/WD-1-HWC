@@ -18,20 +18,29 @@ let tr_element = document.createElement("tr");
 
 let table_elememt = document.createElement("table");
 
-td_element1.innerHTML = "COl 1";
+// td_element1.innerHTML = "COl 1";
 
-tr_element.appendChild(td_element1);
+// tr_element.appendChild(td_element1);
 
-td_element2.innerHTML = "COl 2";
+// td_element2.innerHTML = "COl 2";
 
-tr_element.appendChild(td_element2);
+// tr_element.appendChild(td_element2);
 
-td_element3.innerHTML = "COl 3";
+// td_element3.innerHTML = "COl 3";
 
-tr_element.appendChild(td_element3);
+// tr_element.appendChild(td_element3);
+
+// table_elememt.appendChild(tr_element);
+
+// main_div.appendChild(table_elememt);
+
+
+
+const tr_data = "<tr> <td> Hey </td> <td> How </td> </td> <td> Are </td> </tr>";
+
+tr_element.innerHTML = tr_data;
 
 table_elememt.appendChild(tr_element);
-
 main_div.appendChild(table_elememt);
 
 let attr = document.createAttribute("border");
@@ -39,4 +48,3 @@ let attr = document.createAttribute("border");
 attr.value = "1";
 
 table_elememt.setAttributeNode(attr);
-
