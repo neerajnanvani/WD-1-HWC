@@ -114,8 +114,23 @@ let arr = [3, 5, 1 ,4 ,9];
 //     console.log("B");
 // }
 
-if({}) {
-    console.log("A");
-} else {
-    console.log("B")
+// if({}) {
+//     console.log("A");
+// } else {
+//     console.log("B")
+// }
+
+// let a
+
+// console.log(a);
+
+// let a = 5;
+// console.log(a);
+
+fnc();
+
+function fnc() {
+    console.log("Hey Hey")
 }
+
+
