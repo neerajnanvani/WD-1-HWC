@@ -59,7 +59,7 @@
 // hellofn();
 
 
-let arr = [3, 5, 1 ,4 ,9];
+// let arr = [3, 5, 1 ,4 ,9];
 
 //forEach
 // arr.forEach((item, index) => {
@@ -127,10 +127,102 @@ let arr = [3, 5, 1 ,4 ,9];
 // let a = 5;
 // console.log(a);
 
+// fnc();
+
+// function fnc() {
+//     console.log("Hey Hey")
+// }
+
+
+// let abc = function (message) { // ANONYMOUS FUNCTION
+//     console.log("MESSAGE", message);
+// }
+
+// abc("I HATE YOU");
+
+
+
+// function sum_arr(arr) {
+
+//     let result = 0;
+
+//     for(let i = 0; i < arr.length; ++i) {
+
+//         result = result + arr[i];
+
+//     }
+
+//     return result;
+// }
+
+// function mul_arr(arr) {
+
+//     let result = 1;
+
+//     for(let i = 0; i < arr.length; ++i) {
+
+//         result = result * arr[i];
+
+//     }
+
+//     return result;
+// }
+
+
+
+// let arr = [1,2,3, 4];
+
+// // console.log("SUM", sum_arr(arr));
+
+// // console.log("MULTIPLY", mul_arr(arr));
+
+
+
+// function add_val(val1, val2) {
+//     return val1 + val2;
+// }
+
+// function mul_val(val1, val2) {
+//     return val1 * val2;
+// }
+
+// function solve_arr(arr, start_point, execution_fnc) {
+//     let result = start_point;
+
+//     for(let i = 0; i < arr.length; ++i) {
+//         result = execution_fnc(result, arr[i]);
+//     }
+
+//     return result;
+// }
+
+
+// console.log("ADDD", solve_arr(arr, 0, add_val));
+
+// console.log("MUL", solve_arr(arr, 1, mul_val));
+
+
+
+// console.log(a);
+
+// let a = 10;
+
+
+// let hey = function () {
+//     console.log("Hey Hey");
+// }
+
+// hey();
+
+
+
+let fnc = function () {
+    console.log(a);
+}
+
+let a = 10;
+
 fnc();
 
-function fnc() {
-    console.log("Hey Hey")
-}
 
 
